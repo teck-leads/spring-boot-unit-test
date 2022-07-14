@@ -23,6 +23,10 @@ public class CollegeStudent implements Student {
         this.firstname = firstname;
     }
 
+    public void test(){
+        System.out.println("this is just to create conflicts to resolve in gitbash");
+    }
+
     public String getLastname() {
         return lastname;
     }
